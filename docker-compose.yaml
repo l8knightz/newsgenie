@@ -1,0 +1,9 @@
+services:
+  newsgenie:
+    build: .
+    image: newsgenie:phase1
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped

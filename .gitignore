@@ -1,0 +1,42 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+Environment
+
+.env
+.env.*
+
+Virtual envs
+
+.venv/
+venv/
+ENV/
+
+VSCode / IDE
+
+.vscode/
+.idea/
+
+OS noise
+
+.DS_Store
+Thumbs.db
+
+Build / cache
+
+*.log
+*.sqlite
+*.db
+*.bak
+dist/
+build/
+.cache/
+.pytest_cache/
+
+Docker
+
+*.pid
